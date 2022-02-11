@@ -6,6 +6,16 @@
 
 <hr>
 
+>PHP dá suporte às operações matemáticas através dos seguintes operadores:
+* Soma: +
+* Subtração: -
+* Multiplicação: *
+* Divisão: /
+* Resto da divisão (módulo): %
+* Potência: **
+
+<hr>
+
 ### Exibir dados na tela
 ```
 echo "Hello world";
@@ -17,4 +27,19 @@ echo "Hello world";
 $idade = 21;
 $idade = "Hellow world;
 $idade = 1.5;
+```
+<hr>
+
+### Concatenação de strings
+```
+$nome = "Davi";
+$email = "contato@davisilveira.com.br";
+$idade = 22;
+$telefone = "(85) 9-86278161";
+echo 'Olá, meu nome: ' . $nome . ', idade: ' . $idade . ', telefone: ' . $telefone . ', e-mail: ' . $email;
+
+echo "\n";
+
+echo "Olá, meu nome: $nome, idade: $idade, telefone: $telefone, e-mail: $email";
+
 ```
