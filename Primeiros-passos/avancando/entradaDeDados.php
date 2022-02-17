@@ -19,7 +19,3 @@ for ($i = 0; $i < count($veto); $i++) {
 echo "O resultado final é: " . ($Sum / $a);
 
 
-// Input section
-// $a = 10
-//$a = (int)readline('Enter an integer: ');
-
