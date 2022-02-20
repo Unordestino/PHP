@@ -1,4 +1,8 @@
 ## Alguns detalhes quanto a criação de variáveis no PHP:
+### Acessar xdebug no servidor
+* php -S 127.0.0.1:8060
+* http://127.0.0.1:8060/aquivo.php
+<hr>
 
 * O PHP não permite declarar a variável sem atribuir valor;
 * Por se tratar de uma linguagem de tipagem dinâmica, não é possível definir o tipo de uma variável na declaração;
