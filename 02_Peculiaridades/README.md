@@ -7,4 +7,5 @@
 * Função para definir o número de casas decimais: ``` number_format($area, 4, '.','') ; ```
 * Função para deixar toda string em maiuscula ``` strtoupper('maximizado');   ```
 * Função para deixar toda string em minuscula ``` strtolower('MINIMIZADO'); ```
-*  Função para deixar a primeira letra da string em maiuscula ``` ucfirst('só a primeira letra'); ```
+* Função para deixar a primeira letra da string em maiuscula ``` ucfirst('só a primeira letra'); ```
+* Função para remover uma variavel da aplicação ``` unset($contasCorrentes['123.456.689-11']); ```
