@@ -47,3 +47,17 @@ echo "\n";
 echo "Olá, meu nome: $nome, idade: $idade, telefone: $telefone, e-mail: $email";
 
 ```
+
+<hr>
+
+### Constantes
+```
+define('TAXA_DE_JUROS', 5.9);
+const NOVA_TAXA = 2.5;
+------------------------
+$valorVariavel = 2.8;
+
+define('NOVISSIMA_TAXA', $valorVariavel); // PERMITIDO
+const NOVISSIMA_TAXA = $valorVariavel; // NÃO PERMITIDO
+```
+
