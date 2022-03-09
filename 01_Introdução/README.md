@@ -61,3 +61,34 @@ define('NOVISSIMA_TAXA', $valorVariavel); // PERMITIDO
 const NOVISSIMA_TAXA = $valorVariavel; // NÃO PERMITIDO
 ```
 
+<hr>
+
+### Palavra-Chave 'static' 
+<pre>
+Static é global para classe diferente de atributos ela é vista por todas as instancias. Declarar propriedades ou métodos de uma classe como estáticos faz deles acessíveis 
+sem a necessidade de instanciar a classe. Um membro declarados como estático 
+não pode ser acessado com um objeto instanciado da classe (embora métodos estáticos podem).
+</pre>
+* Exemplo #1 Exemplo de método estático
+```
+<?php
+class Conta {
+    public static function aStaticMethod() {
+        // ...
+    }
+}
+
+Conta::aStaticMethod();
+?>
+```
+* Exemplo #2 Exemplo de propriedade estática
+```
+<?php
+class Conta
+{
+    public static $meu_estatico = 'Olá';
+}
+
+print Conta::$meu_estatico . "\n";
+?>
+```
