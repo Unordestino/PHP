@@ -97,3 +97,36 @@ Uma interface define um contrato.
 
 <hr>
 
+Executar construtor da classe pai
+<pre>
+<code>
+
+abstract class Pessoa{
+  protected $nome;
+  protected $idade;
+  protected $sexo;
+
+	function __construct($nome, $idade, $sexo) {
+      $this->nome = $nome;
+      $this->idade = $idade;
+      $this->sexo = $sexo;
+  }
+
+}
+
+
+
+
+
+------------------------------------------------------
+class Gafanhoto extends Pessoa{
+  private $login;
+
+	function __construct($nome, $idade, $sexo, $login) {
+      parent::__construct($nome, $idade, $sexo);
+      $this->login = $login;
+  }
+}
+</code>
+</pre>
+
