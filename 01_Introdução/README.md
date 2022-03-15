@@ -92,3 +92,25 @@ class Conta
 print Conta::$meu_estatico . "\n";
 ?>
 ```
+<hr>
+
+### Chamar construtor da classe base
+```
+class Product{
+  private string $name;
+  private float $price;
+  
+  function __construct(string $name, float $price) {
+      $this->name = $name;
+      $this->price = $price;
+  }
+}
+
+class ImportedProduct extends Product{
+  function __construct(string $name, float $price,float $customsFee) {
+    parent::__construct($name, $price);
+      $this->customsFee = $customsFee;
+  }
+}
+
+```
