@@ -25,3 +25,13 @@ spl_autoload_register(function (string $nomeCompletoDaClasse) {
 });
 
 ```
+
+<hr>
+
+## Metodo ToString
+```
+    public function __toString()
+    {
+        return "{$this->rua}, {$this->numero}, {$this->bairro}, {$this->cidade}\n"; 
+    }
+```
