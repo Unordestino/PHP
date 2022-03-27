@@ -35,3 +35,22 @@ spl_autoload_register(function (string $nomeCompletoDaClasse) {
         return "{$this->rua}, {$this->numero}, {$this->bairro}, {$this->cidade}\n"; 
     }
 ```
+
+<hr>
+
+## Converte a variavel para diversos tipos
+
+* retorna o valor de $val convertido para um inteiro ```intval("123");```
+* retorna o valor de $val convertido para um booleano ```boolval($val);```  
+* retorna o valor de $val convertido para um float ```floatval($val);``` 
+* retorna o valor de $val convertido para um string ```strval($val);```   
+
+## Verifica o tipo do dado
+
+```
+is_bool();
+is_null();
+is_float();
+is_array();
+is_string();
+```
