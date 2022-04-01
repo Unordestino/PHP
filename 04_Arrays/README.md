@@ -4,6 +4,8 @@ Um array no PHP é na verdade um mapa ordenado. Um mapa é um tipo que relaciona
 
 Um array pode ser criado com o construtor de linguagem array(). Ele leva qualquer quantidade de pares separados por vírgula chave => valor como argumentos.
 
+
+
 ```
 array(
     chave  => valor,
@@ -35,6 +37,14 @@ $dados1 = [
 <hr>
 
 
+### Remover um elemento no array
+```
+$array = [1, 2, 3, 4, 5];
+unset($array[0]);
+```
+
+<hr>
+
 ## Fazer a união de arrays
 ```
 $impares = [1, 3, 5, 7, 9];
@@ -46,3 +56,16 @@ print_r($decimais);
 ```
 
 >Fazer a ordenação do array: ``` sort($decimais); ```
+
+<hr>
+
+
+### Fazer uma pesquisa no array
+
+```
+$input = array("item 2", "item 4", "item 7", "item 5");
+$key = array_search('item 7', $input);
+
+echo $input[$key];
+
+```
