@@ -1,4 +1,14 @@
-### Função explode — Divide uma string em strings
+* Retornar o tamanho de uma string: ``` mb_strlen("Eu também");  ```
+* Função para deixar toda string em maiuscula ``` strtoupper('maximizado');   ```
+* Função para deixar toda string em minuscula ``` strtolower('MINIMIZADO'); ```
+* Função para deixar a primeira letra da string em maiuscula ``` ucfirst('só a primeira letra'); ```
+* Função para reverter uma string ```strrev($palavra); ```
+* Função que verifica se o campo está vazio ``` empty($minhaString) ```
+* Função que verifica se o e-mail é vallido ``` filter_var($email, FILTER_VALIDATE_EMAIL) ```
+
+<hr>
+
+### Função explode — Divide uma string em arrays
 * Example 1
 ```
 
