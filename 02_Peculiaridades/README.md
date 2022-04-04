@@ -11,6 +11,7 @@
 * Função para remover uma variavel da aplicação ``` unset($contasCorrentes['123.456.689-11']); ```
 * Função para reverter uma string ```strrev($palavra); ```
 * Função constante ```define("pi", 3.14); ```
+* Função que verifica se o campo está vazio ``` empty($minhaString) ```
 
 ## Utilizando o autoload
 
