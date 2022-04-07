@@ -5,6 +5,8 @@
 * Função para reverter uma string ```strrev($palavra); ```
 * Função que verifica se o campo está vazio ``` empty($minhaString) ```
 * Função que verifica se o e-mail é vallido ``` filter_var($email, FILTER_VALIDATE_EMAIL) ```
+* Função que encontra a posição da primeira ocorrência de uma string ``` strpos($this->email, "@"); ```
+* Função que retorna uma parte de uma string ``` substr(string $string, int $start, int $length = ?) ```
 
 <hr>
 
