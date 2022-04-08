@@ -29,3 +29,13 @@ echo $pass; // *
 
 ?>
 ```
+
+<hr>
+
+### Função implode Junta um araay em string
+```
+    $vetor = ["Davi", "Silveira", "Souza"];
+    $$vetor = implode("-", $$vetor);
+                    }
+```
+
