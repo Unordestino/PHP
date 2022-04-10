@@ -50,3 +50,19 @@ Ela não diz respeito, especificamente, a uma tabela, mas sim a um relacionament
 > É um campo em uma tabela que faz referência a um campo que é chave primária em outra tabela;
 
 > É possível ter mais de uma (ou nenhuma) em uma tabela.
+
+<hr>
+
+### String de conexão banco de dados PHP
+```
+$host = "localhost";
+$db = "crud_clientes";
+$user = "root";
+$pass = "";
+
+$mysqli = new mysqli($host, $user, $pass, $db);
+
+if($mysqli->connect_errno){
+    die("Falha na conexão com o banco de dados");
+}
+```
