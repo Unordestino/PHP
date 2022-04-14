@@ -7,6 +7,7 @@
 * Função que verifica se o e-mail é vallido ``` filter_var($email, FILTER_VALIDATE_EMAIL) ```
 * Função que encontra a posição da primeira ocorrência de uma string ``` strpos($this->email, "@"); ```
 * Função que retorna uma parte de uma string ``` substr(string $string, int $start, int $length = ?) ```
+* Função trim remove espaços e outros caracteres como a quebra de linha e o tab do começo e do final da string: ``` trim("     @gmail.com") ```
 
 <hr>
 
