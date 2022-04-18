@@ -13,6 +13,7 @@
 * Função constante ```define("pi", 3.14); ```
 * Função que verifica se o campo está vazio ``` empty($minhaString) ```
 * Função que verifica se o e-mail é vallido ``` filter_var($email, FILTER_VALIDATE_EMAIL) ```
+* Função que impedi o usuário de adicionar código de programação em uma validação de formulário ``` htmlspecialchars() ```
 
 ## Utilizando o autoload
 
