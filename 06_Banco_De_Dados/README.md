@@ -25,6 +25,10 @@ a obejetos e Modelo Objeto-Relacional.
 > Uma coleção de restrições de integridade, defenindo o conjunto
 > consistente de estados de base de dados e de alterações de estados.
 
+<hr>
+
+* Função que limpara string para evitar sql injection: ```     $email = $mysqli->escape_string($_POST['email']) ```
+
 # Modelo Relacional
 * Esse modelo baseia-se em dois conceitos: Conceito de entidade e relação
 > Uma entidade é um elemento caracterizado pelos dados que são 
