@@ -57,6 +57,8 @@ Ela não diz respeito, especificamente, a uma tabela, mas sim a um relacionament
 
 <hr>
 
+* Função que impedi o mysql injection ``` $mysqli->escape_string("Seu atributo post aqui") ```
+
 ### String de conexão banco de dados PHP
 ```
 $host = "localhost";
