@@ -1,3 +1,10 @@
+## Funções
+* Faz a ordanação de forma crescente  ``` sort($array) ``` Usar "asort" para manter as chaves de um array associativo
+* Faz a ordanação de forma decrescente  ``` rsort($array) ``` Usar "arsort" para manter as chaves de um array associativo
+* Faz a ordanação de forma crescente com a chaves ``` ksort($array) ``` Usar "krsort" para ordem decrescente
+
+<hr>
+
 ## Arrays
 
 Um array no PHP é na verdade um mapa ordenado. Um mapa é um tipo que relaciona valores a chaves. Este tipo é otimizado para várias usos diferentes: ele pode ser tratado como um array, uma lista (vetor), hashtable (que é uma implementação de mapa), dicionário, coleção, pilha, fila e provavelmente mais. Assim como existe a possibilidade dos valores do array serem outros arrays, árvores e arrays multidimensionais.
