@@ -2,6 +2,10 @@
 * Faz a ordanação de forma crescente  ``` sort($array) ``` Usar "asort" para manter as chaves de um array associativo
 * Faz a ordanação de forma decrescente  ``` rsort($array) ``` Usar "arsort" para manter as chaves de um array associativo
 * Faz a ordanação de forma crescente com a chaves ``` ksort($array) ``` Usar "krsort" para ordem decrescente
+* Verifica se uma chave de array existe ``` array_key_exists('suaChave' , $seuArray))  ```
+* Verifica se o valor existe dentro do array ``` in_array(10, $seu_array) ``` verificando se o valor 10 existe no array
+* Encontra um valor no array e retorna o indice ``` array_search(10, $seuArray)  ``` procurando no array o valor 10 e retorna uma posição
+
 
 <hr>
 
