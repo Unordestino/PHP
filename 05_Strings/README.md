@@ -10,6 +10,8 @@
 * Função trim remove espaços e outros caracteres como a quebra de linha e o tab do começo e do final da string: ``` trim("     @gmail.com") ```
 * Função que impedi o usuário de adicionar código de programação em uma validação de formulário ``` htmlspecialchars() ```
 * limpar espaços em branco ``` trim parte inicial e final```  ``` itrim parte inicial da string```  ``` rtrim parte final da string```
+* Primeira letra da string em maiúscula ``` ucfist("Sua string") ```
+* Primeira letra de cada palavra da string em maiúscula ``` ucwords("Sua string") ```
 
 <hr>
 
